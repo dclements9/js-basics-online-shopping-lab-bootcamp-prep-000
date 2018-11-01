@@ -49,12 +49,11 @@ function removeFromCart(item) {
   var removalResponse
   var indexTest
 
-  for (let i = 0; i<getCart().length; i++){
+  for (let i = 1; i<getCart().length; i++){
     if (getCart()[i].itemName === item){
       var cartItemIndex = getCart()[i]
-      indexTest = i
-      console.log(indexTest)
-      getCart().splice(indexTest,1)
+        indexTest = i
+          getCart().splice(indexTest,1)
 
   }else{
       //removalResponse = "That item is not in your cart."
@@ -72,3 +71,4 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
+  

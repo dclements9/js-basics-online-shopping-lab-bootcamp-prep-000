@@ -44,7 +44,7 @@ for (let i = 0, l = cart.length; i < l; i++){
 }
   return total
 }
-
+/*
 function removeFromCart(item) {
   var removalResponse
   var indexTest
@@ -64,6 +64,36 @@ function removeFromCart(item) {
   }
 }
 // Above is still incomplete.
+*/
+function removeFromCart(item) {
+  var removalResponse
+  var indexTest
+
+  for (let i = 1; i<getCart().length; i++){
+
+    if (!(getCart()[i].itemName === item)){
+        return "That item is not in your cart."
+  }else if (getCart()[i].itemName === item){
+      // Gets item name
+    var itemRemovalName = getCart()[i]
+    // How get index of itemRemovalName?
+
+      indexTest = i
+        getCart().splice(indexTest,1)
+      }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

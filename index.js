@@ -63,7 +63,7 @@ function removeFromCart(item) {
       }
   }
 }
-
+// Above is still incomplete.
 
 
 

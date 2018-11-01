@@ -54,12 +54,12 @@ function removeFromCart(item) {
         // Gets item name
       var itemRemovalName = getCart()[i]
       // How get index of itemRemovalName?
-      
+
         indexTest = i
           getCart().splice(indexTest,1)
 
   }else{
-      return "That item is not in your cart."
+      //return "That item is not in your cart."
       }
   }
 }
@@ -71,4 +71,3 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
-  

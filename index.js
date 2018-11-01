@@ -51,14 +51,15 @@ function removeFromCart(item) {
 
   for (let i = 1; i<getCart().length; i++){
     if (getCart()[i].itemName === item){
-      var cartItemIndex = getCart()[i]
+        // Gets item name
+      var itemRemovalName = getCart()[i]
+      // How get index of itemRemovalName?
+      
         indexTest = i
           getCart().splice(indexTest,1)
 
   }else{
-      //removalResponse = "That item is not in your cart."
       return "That item is not in your cart."
-
       }
   }
 //return removalResponse

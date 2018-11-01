@@ -57,44 +57,12 @@ function removeFromCart(item) {
 
         indexTest = i
           getCart().splice(indexTest,1)
-    removalResponse = 1
-    return `${itemRemovalName}`
-  /*}else if (!(getCart()[i].itemName === item)){
+
+  }else{
       return "That item is not in your cart."
-      */
-      }
-    }
-    if (removalResponse = 0){
-  return "That item is not in your cart."
-  }
-}
-// Above is still incomplete.
-/*
-function removeFromCart(item) {
-  var removalResponse
-  var indexTest
-
-  for (let i = 0; i<getCart().length; i++){
-
-    if (!(getCart()[i].itemName === item)){
-        //return "That item is not in your cart."
-  }else if (getCart()[i].itemName === item){
-      // Gets item name
-    var itemRemovalName = getCart()[i]
-    // How get index of itemRemovalName?
-
-      indexTest = i
-        getCart().splice(indexTest,1)
       }
   }
 }
-*/
-
-
-
-
-
-
 
 
 

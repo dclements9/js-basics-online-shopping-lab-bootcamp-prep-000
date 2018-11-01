@@ -58,6 +58,7 @@ function removeFromCart(item) {
         indexTest = i
           getCart().splice(indexTest,1)
     removalResponse = 1
+    return `${itemRemovalName}`
   /*}else if (!(getCart()[i].itemName === item)){
       return "That item is not in your cart."
       */

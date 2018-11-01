@@ -69,7 +69,7 @@ function removeFromCart(item) {
   var removalResponse
   var indexTest
 
-  for (let i = 1; i<getCart().length; i++){
+  for (let i = 0; i<getCart().length; i++){
 
     if (!(getCart()[i].itemName === item)){
         return "That item is not in your cart."

@@ -55,6 +55,7 @@ function removeFromCart(item) {
       indexTest = i
       console.log(cartItemIndex)
       console.log(indexTest)
+      getCart().splice(indexTest,1)
 
   }else{
       //removalResponse = "That item is not in your cart."

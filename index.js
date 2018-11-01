@@ -53,8 +53,6 @@ function removeFromCart(item) {
     if (getCart()[i].itemName === item){
       var cartItemIndex = getCart()[i]
       indexTest = i
-      console.log(cartItemIndex)
-      console.log(indexTest)
       getCart().splice(indexTest,1)
 
   }else{
